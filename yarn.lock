@@ -209,10 +209,10 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-absurd-sql@^0.0.45:
-  version "0.0.45"
-  resolved "https://registry.yarnpkg.com/absurd-sql/-/absurd-sql-0.0.45.tgz#9f35c1f25705acea16d240ec66665ad6e3af15c1"
-  integrity sha512-FqyPOHbElhS5V2AMURme7SHJVbauPkVmFk6iX655j4bunz4eTnAPAfx1Fe49K6/mR7uqzEPbnqKOoO865vBqPA==
+absurd-sql@^0.0.46:
+  version "0.0.46"
+  resolved "https://registry.yarnpkg.com/absurd-sql/-/absurd-sql-0.0.46.tgz#1b87a639c8fe9ecc49e665422a0d77d41c85965c"
+  integrity sha512-NcS5jMhjvX7RZK1fbcfqYfpFS3b0l0S5Lqymf3BEy0zXdk4EOXbIW5IxQscMBFusfKJ0TAs9STmBI53OwhzKZw==
 
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"

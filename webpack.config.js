@@ -9,7 +9,7 @@ module.exports = {
       'Cross-Origin-Embedder-Policy': 'require-corp'
     }
   },
-  entry: './index.js',
+  entry: './src/index.js',
   mode: 'development',
   resolve: {
     extensions: ['.dev.js', '.js', '.json', '.wasm'],
@@ -19,5 +19,5 @@ module.exports = {
       fs: false
     }
   },
-  plugins: [new HtmlWebpackPlugin({ template: './index.html' })]
+  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })]
 };
