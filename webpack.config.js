@@ -24,6 +24,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
-    new CopyWebpackPlugin({ patterns: [{from: './sql-wasm.wasm' }] })
+    new CopyWebpackPlugin({ patterns: [{ from: './sql-wasm.wasm' }] })
   ]
 };
