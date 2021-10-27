@@ -1,8 +1,11 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devServer: {
-    publicPath: '/',
+    devMiddleware: {
+        publicPath: "/"
+    },
     hot: true,
     headers: {
       'Cross-Origin-Opener-Policy': 'same-origin',
@@ -19,5 +22,8 @@ module.exports = {
       fs: false
     }
   },
-  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })]
+  plugins: [
+    new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new CopyWebpackPlugin({ patterns: [{from: './sql-wasm.wasm' }] })
+  ]
 };
