@@ -2,7 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devServer: {
-    publicPath: '/',
+    static: {
+      directory: __dirname
+    },
     hot: true,
     headers: {
       'Cross-Origin-Opener-Policy': 'same-origin',
